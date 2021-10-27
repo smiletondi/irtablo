@@ -10,7 +10,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/smiletondi/irtablo
 ```
 
 Go to the /client directory
