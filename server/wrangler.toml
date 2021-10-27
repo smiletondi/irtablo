@@ -1,0 +1,21 @@
+name = "esbuild-worker"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+kv_namespaces = [
+  {binding = "GAMES", id = "GAMES", preview_id = "GAMES"},
+]
+[build.upload]
+format = "service-worker"
+
+[triggers]
+# crons = ["* * * * * *"]
+
+[vars]
+KEY = "value"
+
+[build]
+command = "npm run build"
+
