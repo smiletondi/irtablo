@@ -6,11 +6,10 @@ const headers = {
   // "Content-Type": "application/json",
 };
 
-export const endpoint = process.env.NEXT_PUBLIC_API_URL;
-// export const endpoint =
-//   process.env.NODE_ENV === "development"
-//     ? "http://localhost:8787"
-//     : process.env.NEXT_PUBLIC_API_URL;
+export const endpoint =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:8787"
+    : process.env.NEXT_PUBLIC_API_URL;
 export const sendReq = (url: string) => axios.get(`${endpoint}${url}`);
 export const sendPostReq = (url: string, data: any) =>
   axios.post(`${endpoint}${url}`, data, { headers });
