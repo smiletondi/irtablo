@@ -10,10 +10,10 @@ Clone the project
   git clone https://github.com/smiletondi/irtablo
 ```
 
-### Go to the /client directory
+### Go to the /server directory
 
 ```bash
-  cd irtablo/client
+  cd irtablo/server
 ```
 
 Install dependencies with npm or yarn
@@ -32,10 +32,10 @@ Start the server
   yarn dev
 ```
 
-### Go to the /server directory
+### Go to the /client directory
 
 ```bash
-  cd irtablo/server
+  cd irtablo/client
 ```
 
 Install dependencies with npm or yarn
